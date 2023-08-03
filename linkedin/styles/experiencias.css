@@ -1,0 +1,86 @@
+.experiencias{
+    width: 780px;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 240px;
+    margin-top: -8px;
+    font-size: 1rem;
+    color: var(--branco);
+    background-color: var(--fundo);
+}
+.titulo-3{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.expericia-item{
+    display: flex;
+    flex-direction: column;
+}
+.organização{
+    display: flex;
+    margin-top: 8px;
+}
+.organização img{
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+    padding-left: 40px;
+}
+.organização>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -18px;
+}
+.organização>div>p{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.organização>div>span{
+    color: var(--cinza);
+}
+li.cargo{
+    position: relative;
+    left: 54px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+li.cargo h3{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+li.cargo span{
+    font-size: 14px;
+    color: var(--texto-secundario);
+    margin-bottom: 2px;
+}
+li.cargo .tipo-emprego{
+    color: var(--texto-principal);
+}
+li.cargo::before, li.cargo::after{
+    content: "";
+    position: absolute;
+    transform: translate(-35px, 50%);
+  }
+  
+  li.cargo::before{
+    background-color: var(--texto-principal);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+  }
+  
+  li.cargo::after{
+    background-color: var(--texto-secundario);
+    left: 4px;
+    top: -5%;
+    width: 1px;
+    height: 48px;
+  }
+  
+  li.cargo:not(:last-child){
+    margin-bottom: 8px;
+  }

@@ -1,0 +1,94 @@
+.atividades{
+    background-color: var(--fundo);
+    width: 780px;
+    height: auto;
+    margin-left: 240px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+}
+.paragrafo-1, .paragrafo-2{
+    border-bottom: 1px solid var(--texto-secundario);
+}
+.titulo-2{
+    color: var(--branco);
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.seguidores-2{
+    color: var(--azul);
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.nome-sobrenome{
+    color: var(--texto-secundario);
+    margin-left: 30px;
+}
+.primeiro{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.segundo{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.informacao{
+    margin-left: 10px;
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 400;
+}
+.interações{
+    display: flex;
+    justify-content: space-between;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.interação{
+    background: #DF704D;
+    transform: translateX(100%);
+    box-shadow: -8px 0 #378FE9, -16px 0 #6DAE4F;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+.curtida{
+    margin-right: 580px;
+}
+.exibir{
+    color: var(--texto-secundario);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+.sobre_sobre{
+    background-color: var(--fundo);
+    width: 780px;
+    height: 160px;
+    margin-left: 240px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+}
+.texto-sobre{
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}

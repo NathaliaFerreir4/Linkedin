@@ -1,0 +1,66 @@
+.tambem_viram{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fundo);
+    width: 320px;
+    height: 670px;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: -2479px;
+    margin-left: 1100px;
+}
+.pessoas_viram{
+    margin-right: 10px;
+}
+.titulo-5{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+.nome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nome>img{
+    width: 48px;
+    height: 48px;
+    margin-top: -30px;
+}
+.nome_sobrenome{
+    font-size: 14px;
+    font-weight: 700;
+}
+.tct{
+    font-size: 12px;
+    color: var(--texto-secundario);
+    font-weight: 400;
+}
+.nome_sobrenome, .tct{
+    margin-top: -4px;
+    margin-left: 5px;
+}
+.enviar_mensagem{
+    background-color: var(--fundo);
+    width: 154px;
+    height: 28px;
+    border-radius: 16px;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 700;
+}
+.talvez_conheça{
+    width: 320px;
+    height: 670px;
+    background-color: var(--fundo);
+    margin-left: 1100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+@media (max-width: 1084px){
+    div.sugestões{
+        margin: .25rem 0 .5rem 0;
+    }
+}

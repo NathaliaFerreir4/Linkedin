@@ -1,0 +1,32 @@
+@import url(styles/barra.css);
+@import url(styles/cabecalho.css);
+@import url(styles/destaque.css);
+@import url(styles/atividades.css);
+@import url(styles/experiencias.css);
+@import url(styles/idiomas.css);
+@import url(styles/sugestoes.css);
+:root{
+  --fundo-escuro: #000;
+  --fundo:rgba(27, 34, 38, 1);
+  --azul: rgba(112, 181, 249, 1);
+  --branco: rgba(255, 255, 255, 0.9);
+  --cinza: rgba(255, 255, 255, 0.6);
+  --barra: rgba(56, 67, 79, 1);
+  --texto-secundario: hsla(0, 0%, 100%, 0.6);
+
+}
+body{
+    width: 1440px;
+    height: 2139px;
+    top: -261px;
+    left: -871px;
+    background: var(--fundo-escuro);
+    font-family:'Roboto', sans-serif;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+

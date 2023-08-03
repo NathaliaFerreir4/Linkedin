@@ -1,0 +1,53 @@
+.formação-academica, .idiomas{
+    width: 780px;
+    height: auto;
+    background-color: var(--fundo);
+    border-radius: 10px;
+    margin-left: 240px;
+    color: var(--branco);
+    margin-top: -10px;
+    padding-bottom: 8px;
+}
+.titulo-4{
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.instituicao{
+    display: flex;
+    flex-direction: row;
+}
+.instituicao img{
+    width: 48px;
+    height: 48px;
+    margin-left: 40px;
+}
+.instituicao>div{
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.instituicao>div>p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.instituicao>div>span{
+    display: flex;
+    font-size: 14px;
+    color: var(--texto-secundario);
+    margin-bottom: 3px;
+}
+.instituicao>div>.nome-curso{
+    color: var(--branco);
+}
+.pt, .ig{
+    font-size: 16px;
+    font-weight: 600;
+}
+.fluente{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-secundario);
+}
+.portugues{
+    border-bottom: 1px solid var(--texto-secundario);
+}

@@ -1,0 +1,133 @@
+.barra{
+    width: 100%;
+    height: 52px;
+    background-color: var(--fundo);
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+.icones_barra{
+    width: 370px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.imagem_linkedin{
+    cursor: pointer;
+    background-image: url(../assets/logo-linkedin.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 34px;
+    height: 34px;
+    margin-right: 8px;
+}
+.divBusca{
+    background: url(../assets/icone-busca.svg) no-repeat left / 24px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 50px;
+}
+.txtBusca{
+    width: 280px;
+    height: 34px;
+    background-color: var(--barra);
+    border: none;
+    border-radius: .3rem;
+    padding-left: 2.4rem;
+}
+.txtBusca::placeholder{
+    color: var(--texto-secundario);
+}
+.barra nav{
+    display: flex;
+}
+.span_texto{
+    color: var(--branco);
+    font-size: 12px;
+    font-weight: 400;
+}
+.icones{
+    width: 400px;
+    height: 38px;
+    margin-top: 10px;
+    margin-left: 110px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.texto{
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texto:last-child{
+    margin-left: .2rem;
+    border-left: 1px solid var(--texto-secundario);
+}
+.texto a{
+    text-align: center;
+    width: 80px;
+    font-size: .8rem;
+    color: var(--texto-secundario);
+    transition: color .3s ease;
+    text-decoration: none;
+}
+.texto a:hover{
+    color: var(--texto-secundario);
+}
+.item-icone{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+span.inicio{
+    background-image: url(../assets/icone-inicio.svg);
+}
+span.minha-rede{
+    background-image: url(../assets/icone-minha-rede.svg);
+}
+span.vagas{
+    background-image: url(../assets/icone-vagas.svg);
+}
+span.mensagens{
+    background-image: url(../assets/icone-mensagens.svg);
+}
+span.notificacoes{
+    background-image: url(../assets/icone-notificacoes.svg);
+}
+span.solucoes{
+    background-image: url(../assets/icone-solucoes.svg);
+}
+@media (max-width: 1024px){
+    .barra{
+        padding: 0 4rem;
+    }
+    .txtBusca{
+        display: none;
+    }
+    .divBusca{
+        transform: translate(100%, -20%);
+    }
+    .divBusca::before{
+        content: "Pesquisar";
+        color: var(--texto-secundario);
+        font-size: .75rem;
+        position: absolute;
+        left: 50%;
+        transform: translate(-40%, 165%);
+    }
+    .divBusca::before:hover{
+        color: var(--texto-secundario);
+    }
+}
+@media (max-width: 680px){
+    .divBusca{
+        display: none;
+    }
+}
